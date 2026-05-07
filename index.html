@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quick Courier BD</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f5f5f5;
+      color: #222;
+    }
+
+    header {
+      background: #0f172a;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 15px;
+    }
+
+    .hero {
+      padding: 60px 20px;
+      text-align: center;
+      background: white;
+    }
+
+    .hero h1 {
+      font-size: 36px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      background: #2563eb;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 40px 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .tracking {
+      background: #e2e8f0;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .tracking input {
+      padding: 12px;
+      width: 250px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    .tracking button {
+      padding: 12px 20px;
+      border: none;
+      background: #2563eb;
+      color: white;
+      border-radius: 8px;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+
+    footer {
+      background: #0f172a;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Quick Courier BD</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Services</a>
+      <a href="#">Tracking</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>দ্রুত ও নিরাপদ কুরিয়ার সার্ভিস</h1>
+    <p>বাংলাদেশের যেকোনো জায়গায় দ্রুত পার্সেল ডেলিভারি</p>
+    <a href="#" class="btn">Parcel Book করুন</a>
+  </section>
+
+  <section class="services">
+    <div class="card">
+      <h2>Same Day Delivery</h2>
+      <p>ঢাকার ভিতরে দ্রুত ডেলিভারি সার্ভিস।</p>
+    </div>
+
+    <div class="card">
+      <h2>Cash On Delivery</h2>
+      <p>পণ্য ডেলিভারির পর পেমেন্ট সংগ্রহ।</p>
+    </div>
+
+    <div class="card">
+      <h2>Live Tracking</h2>
+      <p>আপনার পার্সেলের অবস্থান সহজে দেখুন।</p>
+    </div>
+  </section>
+
+  <section class="tracking">
+    <h2>Parcel Tracking</h2>
+    <br>
+    <input type="text" placeholder="Tracking ID লিখুন">
+    <button>Track</button>
+  </section>
+
+  <footer>
+    <p>© 2026 Quick Courier BD | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
